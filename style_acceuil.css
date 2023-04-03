@@ -1,0 +1,53 @@
+body
+{
+    padding:0.5% 3%;
+}
+
+
+img
+{
+    border-radius: 200%;
+}
+
+div
+{
+    width: 7%;
+    justify-content: space-between;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(final_fantasy_xv_art_boy_light_104077_2560x1440.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 0 1%;
+    color: aliceblue;
+
+}
+
+ul
+{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none   ;
+    color: rgb(237, 230, 230);
+}
+
+#deconnexion
+{
+    width: 5%;
+    height: 60%;
+}
+
+#deconnexion select
+{
+    width: 100%;
+}

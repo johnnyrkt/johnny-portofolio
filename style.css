@@ -1,0 +1,101 @@
+body
+{
+    background-image: url(fallout_76_e3_2018_video_game-wallpaper-2560x1440.jpg);
+    background-size: cover;
+    padding: 0;
+}
+
+.left-col
+{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.left-col span
+{
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-col p
+{
+    color: white;
+    font-size: 1.5em;
+}
+
+.right-col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(104, 99, 99, 0.525);
+    backdrop-filter: blur(1.5px);
+    width: 300PX;
+    border-radius: 10PX;
+    margin-right: 15%;
+    padding: 2px;
+}
+
+.right-col a
+{
+    background-color: rgba(236, 236, 248, 0.587);
+    border-radius: 10px;
+    display: block;
+    padding: 5px;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: white;
+    box-shadow: 0 1px 30px rgb(59, 68, 65);
+    background-color: rgba(37, 59, 53, 0.397);
+}
+
+#connexion
+{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25%;
+}
+
+.container
+{
+    width: 100%;
+}
+
+input
+{
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 0.5em;
+    border-bottom:2px solid rgb(161, 89, 37);
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+
+span
+{
+    color: rgb(23, 94, 94);
+}
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    font-size: 3em;
+}
